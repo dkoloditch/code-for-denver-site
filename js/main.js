@@ -1,3 +1,4 @@
-import {animateRole} from 'js/get-involved';
-
-animateRole();
+System.import('js/get-involved')
+	.then(function(m){
+		m.animateRoles();
+	});
