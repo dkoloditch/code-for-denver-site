@@ -11,7 +11,7 @@
 
   function insertRoleText() {
     var role = randomRole();
-    var template = "<span id=\"underline\"\n\t\t\t\t\tclass=\"label label-default\n\t\t\t\t\textra-top-margin\">" + role + "</span>?";
+    var template = "<span id=\"role\"\n\t\t\t\t\tclass=\"label label-default\n\t\t\t\t\textra-top-margin\">" + role + "</span>?";
     ele.html(template);
   };
 

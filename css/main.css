@@ -153,9 +153,11 @@ textarea {
     padding-bottom: 100px;
 }
 
-#get-involved span#underline{
+#get-involved span#role{
     background: RGB(234, 232, 233);
-    color : RGB(71, 72, 67);
+    overflow: hidden;
+    color : RGB(0, 0, 0);
+    width: 20%;
 }
 
 #get-involved #is-this-you {
